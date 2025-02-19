@@ -1,15 +1,17 @@
-h1, h6{
-    font-size: 2em;
-}
-
-h1,h6,p{
+h1{
+    font-size: 1em;
+  }
+  p{
+    text-align: center;
+  }
+  h1,h6,p{
     color: gold;
-}
-.form{
+  }
+  .form{
     text-align: center;
     margin-top: 2em;
-}
-form {
+  }
+  form {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
@@ -37,8 +39,8 @@ form {
   button {
     padding: 10px 15px;
   }
-
- 
+  
+  
     form {
     max-width: 400px;
     margin: 20px auto;
@@ -66,7 +68,7 @@ form {
   button {
     padding: 10px 15px;
   }
-
+  
   .btn{
     background-color: gold;
     color: #000;

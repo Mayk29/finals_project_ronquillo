@@ -10,15 +10,6 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  title = 'finals_project';
-  fullname: string = "";
-  student_num: string= "";
-  email: string = "";
-  message: string ="";
-  submitted: boolean = false;
-
-  onSubmit(){
-    this.submitted = true;
-  }
-
+  title = 'form-app';
+  
 }

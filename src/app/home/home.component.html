@@ -1,26 +1,8 @@
 <div class="form">
-<h1>This is the Home Page</h1>
+<h1>This is the Home Page for Finals Project</h1>
 <h6>Created by: Ronquillo, Michael Arnold</h6>
-<p>Fill up the form</p>
-</div>
-<div>
-    <form (ngSubmit)="onSubmit()">
-      <input class="input-box" type="text" name="fullname"
-      [(ngModel)]="fullname" placeholder="Input your fullname" required>
-      <input class="input-box" type="text" name="student_num"
-      [(ngModel)]="student_num" placeholder="Input your student number" required>
-      <input class="input-box" type="email" name="email"
-      [(ngModel)]="email" placeholder="Input your email" required>
-      <input class="input-box" type="text" name="message"
-      [(ngModel)]="message" placeholder="Message" required>
-      <input class="btn" type="submit" value="Submit" [disabled]="!fullname">
-    </form>
-</div>
-<div class="form">
-<h6>The information you filled in are the following:</h6>
-<p style="font-size: 10px;" *ngIf="submitted">Student Information: </p>
-<p style="font-size: 10px;" *ngIf="submitted">{{fullname}}</p>
-<p style="font-size: 10px;" *ngIf="submitted">{{student_num}}</p>
-<p style="font-size: 10px;" *ngIf="submitted">{{email}}</p>
-<p style="font-size: 10px;" *ngIf="submitted">{{message}}</p>
+<img src="https://i.ytimg.com/vi/OMiqxeWqpdg/hqdefault.jpg" style="width: 500px; margin: 0 auto; border-radius: 20px; margin-top: 2em;">
+<p style="margin-top: 1em;">Possible score</p>
+<img src="https://i.redd.it/7moand3r2d2c1.jpeg" style="width: 500px; margin: 0 auto; border-radius: 20px;">
+
 </div>
