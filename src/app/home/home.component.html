@@ -1,0 +1,26 @@
+<div class="form">
+<h1>This is the Home Page</h1>
+<h6>Created by: Ronquillo, Michael Arnold</h6>
+<p>Fill up the form</p>
+</div>
+<div>
+    <form (ngSubmit)="onSubmit()">
+      <input class="input-box" type="text" name="fullname"
+      [(ngModel)]="fullname" placeholder="Input your fullname" required>
+      <input class="input-box" type="text" name="student_num"
+      [(ngModel)]="student_num" placeholder="Input your student number" required>
+      <input class="input-box" type="email" name="email"
+      [(ngModel)]="email" placeholder="Input your email" required>
+      <input class="input-box" type="text" name="message"
+      [(ngModel)]="message" placeholder="Message" required>
+      <input class="btn" type="submit" value="Submit" [disabled]="!fullname">
+    </form>
+</div>
+<div class="form">
+<h6>The information you filled in are the following:</h6>
+<p style="font-size: 10px;" *ngIf="submitted">Student Information: </p>
+<p style="font-size: 10px;" *ngIf="submitted">{{fullname}}</p>
+<p style="font-size: 10px;" *ngIf="submitted">{{student_num}}</p>
+<p style="font-size: 10px;" *ngIf="submitted">{{email}}</p>
+<p style="font-size: 10px;" *ngIf="submitted">{{message}}</p>
+</div>
